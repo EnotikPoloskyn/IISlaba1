@@ -1,0 +1,22 @@
+﻿<Page x:Class="IIS_laba.register"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:IIS_laba"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="register">
+
+    <Grid>
+        <Label Content="Введіть логін" HorizontalAlignment="Left" Margin="289,141,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="23" Margin="289,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="289,216,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.3,-0.2" Width="224" Height="23"/>
+        <PasswordBox x:Name="confirm" HorizontalAlignment="Left" Margin="289,265,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.1,-0.2" Width="224" Height="23"/>
+        <Button x:Name="reg" Content="Зареєструватися" Click="register_Click" HorizontalAlignment="Left" Margin="289,301,0,0" VerticalAlignment="Top" Width="102"/>
+        <Label Content="Введіть пароль" HorizontalAlignment="Left" Margin="289,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="Підтвердіть пароль" HorizontalAlignment="Left" Margin="289,239,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.763,0.231"/>
+        <Button x:Name="cancel" Content="Відмінити" Click="cancel_Click"  HorizontalAlignment="Left" Margin="411,301,0,0" VerticalAlignment="Top" Width="102"/>
+
+    </Grid>
+</Page>
